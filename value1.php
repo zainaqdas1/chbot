@@ -1,206 +1,204 @@
-<?php
+﻿<?php
 $botPintar=array(
 array(
 array(
-"sange",
-"bokep",
-"ngentot",
-"porno",
-"mesum",
+            "sange",
+          "bokep",
+        "ngentot",
+      "porno",
+    "mesum",
 ),
 array(
-":O <me> O.o bot by chbotter ka fan <3",
+"",
 )),
 
 array(
 array(
-"http",
-"situs",
-"link",
-"blog",
-"server",
+            "http",
+              "situs",
+                "link",
+                  "blog",
+                    "server",
 ),
 array(
-"Chbotter on top Bot By <me> ",
+"",
 )),
 
 array(
 array(
-"kecewa",
-"sedih",
-"galau",
-"sakit hati",
+"",
 ),
 array(
-"ChBotter on fire hai bache pakar k rkh bich mai se guzar jaiga ",
+"",
 )),
 
 array(
 array(
-"cinta",
-"love",
-"pacar",
-"kekasih",
-"gebetan",
+            "",
 ),
 array(
-"Atama rol de ga chbotter mere dost bach k zara ",
+"",
 )),
 
 array(
 array(
-"JumP kr bache ",
+            "salkomsel",
+        "jempol",
+    "like",
 ),
 array(
-"Top class liker By <me> ",
+"",
 )),
 
 array(
 array(
-"Cover KR chbotter ko ",
+            "gembira",
+            "bahagia",
+            "senang",
 ),
 array(
-"Mango bache chbotter ko feel krte bekhari ",
+"",
 )),
 
 array(
 array(
-"i Like Your Beat ",
+              "",
 ),
 array(
-"Chbotter is the king of fuckerx ",
+"",
 )),
 
 array(
 array(
-"Love Me thora Thora ",
+"setan",
+"iblis",
+"dajjal",
 ),
 array(
-"Every One Gonna Sleep <me> ",
+"",
 )),
 );
 
 $botNormal=array(
-"We Are chbotter mere bache <name> Powered By <me> ",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
 );
 
 $botNomer=array(
 array(
-"Powered By <me> chbotter ka fan <name> ",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
 ),
 array(
-"Fuck Da Fuckerx Haterx k xdAdx chbotter ",
+"",
 ),
 array(
-"We Are Famous Because Haters Became Us <name> Lolx ",
+"",
 ),
 array(
-"Pta tha Tu b <name> Chbotter Ka Fan Hai panda Fan <me> ",
+"",
 ));
 
 $botPhoto=array(
-"You NeVer Know The Power Of Chbotter <name> Paru Bot By Panda wala <me> ",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
+"ρσωєяє∂ ву ❤ ʝιgєяѕ вσт™ ❤ <me> ❤",
 );
 
 function getJam($name){
 $rpc=array('00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23');
 
 $sapa=array(
-'Chaudhrys botter One OF the Best to haterx Pee Desire '
+'',
+
 );
 
 $hari=array(1=>
-"ChBotter On TOp Loverx Panda Fan <me>"
+"",
 );
 
 $bulan=array(1=>
-"Januari",
-"Februari",
-"Maret",
-"April",
-"Mei",
-"Juni",
-"Juli",
-"Agustus",
-"September",
-"Oktober",
-"November",
-"Desember"
+                                "",
 );
 
 $hr = $hari[gmdate('N',time()+60*60*7)];
 $tgl = gmdate('j',time()+60*60*7);
-$bln =
+$bln = 
 $bulan[gmdate('n',time()+60*60
 *7)];
 $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
-return ' 🌟 '.$jam.' Chaudhrys Botter on top 🌟'.$name.'
-<3 Dat3 Not3 KR :3 '.$hr.' : '.$tgl.' - '.$bln.' - '.$thn;
+return ' '.$jam.''.$name.'
+ '.$hr;
 }
 
 function getPower($nm,$tm,$tk){
-$gwe=getUrl('/me',$tk,array(
+$gwe=getUrl('/',$tk,array(
 'fields' => 'id,name',
 ));
 $by=array(
-'Powered By ➡',
-'Powered By ➡',
-'Powered By ➡',
-'Powered By ➡',
-'Powered By ➡',
+      '',
 );
 $punyu=array(
-'Chbotter TOp Rhy Ga :) ',
-);
+                   '',
+               );
 $back=array(
-'Like back De Larky :* ',
+'',
 );
 $text=$punyu[rand(0,count($punyu)-1)];
 $n=substr($tm,11,8);
 $l=explode(':',$n);
 $t=((gmdate('i')*60)+gmdate('s'))-(($l[1]*60)+$l[2]);
 $m=floor($t/60);
-$d=$t-($m*60);
-if($d<0){
-return false;
+  $d=$t-($m*60);
+     if($d<0){
+        return false;
+           }else{
+              if($m==0){
+$ups=$text.' '.$d.' Seconds 💙';
 }else{
-if($m==0){
-$ups=$text.' '.$d.' SEC :)';
-}else{
-$ups=$text.' '.$m.' MINT :) '.$d.' SEC :* ';}
+$ups=$text.' '.$m.'  '.$d.'  ';}
 }
 $me=$by[rand(0,count($by)-1)];
 $ips=$me.' '.$gwe[name];
 $like=$back[rand(0,count($back)-1)];
 $eps=$like.' '.$nm;
 $ops=getJam($nm);
-$site='c h α υ δ h r ψ s 🌹 β ο τ τ ε r ♥ -=[ZAIN AQDAS]=-
-<3 SITE ~> ZAINCHBOT.MOD.BZ ';
+$site='➡ jigers-and-u.tk';
 $true=$ops.'
-💢 '.$eps.'
-💢 '.$ups.'
-💢 '.$ips.'
-♥ '.$site;
+ '.$ips.'
+ '.$site;
 
 return $true;
 }
 
 function getStr($mes,$psn,$nam,$me,$in,$exe=null){
 $array=array(
-'<me>',
-'<name>',
-'<mess>',
-'<balik>',
+                  '<me>',
+              '<name>',
+          '<mess>',
+      '<balik>',
 '<juara>',
 );
 $space=array(
 $me,
-$nam,
-$psn,
-strrev($psn),
-$exe,
+     $nam,
+          $psn,
+               strrev($psn),
+                    $exe,
 );
 $couse=str_replace($array,$space,$mes);
 if($in=='on'){

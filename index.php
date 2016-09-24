@@ -1,9 +1,8 @@
-﻿/opt/modulus/php/php-5.6.15/sbin/php-fpm
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 • CHAUDHRYS BOTTER •
-</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/grad.css"
+</title><link rel="stylesheet" type="text/css" href="style_2.css"
 
-</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/grad_box.css" media="all,handheld"/><link rel="shortcut icon" href="">
+</title><link rel="stylesheet" type="text/css" href="style_2.css" media="all,handheld"/><link rel="shortcut icon" href="">
  <script type=text/javascript>
  var _cpp= _cpp || [];
   _cpp['username']    = "zain.aqdas.II";
@@ -44,9 +43,9 @@ $else=array_merge($ar,$uh);
         $else=$ar;
 }
 foreach($else as $b => $c){
-        $jdsab[]=$b.'='.$c;
+        $cokis[]=$b.'='.$c;
 }
-$true='?'.implode('&',$jdsab);
+$true='?'.implode('&',$cokis);
 $true=$this->getGr($mb,$true);
 $true=json_decode($this->
 one($true),true);
@@ -70,40 +69,40 @@ $ch=curl_exec($cx);
 }
 
 public function savEd($tk,$id,$a,$b,$o,$c,$z=null,$bb=null){
-if(!is_dir('jdsab')){
-        mkdir('jdsab');
+if(!is_dir('cokis')){
+        mkdir('cokis');
 }
 if($bb){
-$blue=fopen('jdsab/'.$id,'w');
+$blue=fopen('cokis/'.$id,'w');
 fwrite($blue,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$bb);
         fclose($blue);
 
 echo'<script type="text/javascript">alert("INFO : Text robot telah dibuat")</script>';
 }else{
         if($z){
-if(file_exists('jdsab/'.$id)){
-$file=file_get_contents('jdsab/'.$id);
+if(file_exists('cokis/'.$id)){
+$file=file_get_contents('cokis/'.$id);
 $ex=explode('*',$file);
 $str=str_replace($ex[0],$tk,$file);
-$xs=fopen('jdsab/'.$id,'w');
+$xs=fopen('cokis/'.$id,'w');
         fwrite($xs,$str);
         fclose($xs);
 }else{
 $str=$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c;
-$xs=fopen('jdsab/'.$id,'w');
+$xs=fopen('cokis/'.$id,'w');
         fwrite($xs,$str);
         fclose($xs);
 }
 $_SESSION[key]=$tk.'_'.$id;
 }else{
-$file=file_get_contents('jdsab/'.$id);
+$file=file_get_contents('cokis/'.$id);
 $file=explode('*',$file);
         if($file[5]){
-$up=fopen('jdsab/'.$id,'w');
+$up=fopen('cokis/'.$id,'w');
 fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$file[5]);
         fclose($up);
         }else{
-$up=fopen('jdsab/'.$id,'w');
+$up=fopen('cokis/'.$id,'w');
 fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c);
         fclose($up);
         }
@@ -111,7 +110,7 @@ echo'<script type="text/javascript">alert("INFO : Data Anda telah ter Save, Robo
 }
 
 public function lOgbot($d){
-        unlink('jdsab/'.$d);
+        unlink('cokis/'.$d);
         unset($_SESSION[key]);
 
 echo'
@@ -124,7 +123,7 @@ echo'
 }
 
 public function cek($tok,$id,$nm){
-$if=file_get_contents('jdsab/'.$id);
+$if=file_get_contents('cokis/'.$id);
 $if=explode('*',$if);
 if(preg_match('/on/',$if[1])){
         $satu='on';
@@ -306,13 +305,7 @@ $thn=gmdate('Y',time()+60*60*7);
 $jam=gmdate('H',time()+60*60*7);
 
 echo'
-<div id="header">
-<h1 class="heading">
-<a target="_top" href="http://www.flamingtext.com/" ><img src="http://blog.flamingtext.com/blog/2016/04/09/flamingtext_com_1460246196_672985706.gif" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com">
-</h1>
-<h2 class="description">
-'.$hr.' : '.$tgl.' - '.$bln.' - '.$thn.'<br>
-'.$jam.'</h2></div>';
+';
 } 
 
 public function home(){
@@ -321,20 +314,15 @@ echo'
 <div class="post">
 <div class="post-meta">
 <h2 class="title">
-Administrator Websites
 </h2>
-By ♥c h α υ δ h r ψ s 🌹 β ο τ τ ε r
-♥
 </div>
 
 <div class="post-content">
 <center><a target="_top" href="http://www.flamingtext.com/" ><img src="http://blog.flamingtext.com/blog/2016/05/07/flamingtext_com_1462657772_442107281.gif" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com">
 <div class="post-content">
-<a href="http://m.facebook.com/zain.aqdas.II"><img src="https://graph.facebook.com/zain.aqdas.II/picture" style="border: 2px solid #000; padding: 2px; margin: 2px; width: 50px; height: 50px; float: left;" alt="ZAIN AQDAS" class="thumbnail"/></a>
-<a href="http://m.facebook.com/zain.aqdas.9"><img src="https://graph.facebook.com/zain.aqdas.9/picture" style="border: 2px solid #000; padding: 2px; margin: 2px; width: 50px; height: 50px; float: left;" alt="Zain Aqdas" class="thumbnail"/></a>
 <span>
 <br> яσвσт cяεαтε∂ !! c h α υ δ h r ψ s β ο τ τ ε r <br>
-• яε∂ιяεcт ι∂ • : <a href="http://www.facebook.com/zain.aqdas.9">• cℓιcк нεяε •</a>
+• яε∂ιяεcт ι∂ • : <a href="http://www.facebook.com/zain.aqdas.II">• ZAIN AQDAS •</a>
 
 </span>
 </div>
@@ -355,10 +343,6 @@ echo'
                 <div class="header">
 <span class="mfss fcg">
 <h3>Dεvεℓσρεяs : CHAUDHRYS BOTTER ALWAYS ON TOP</h3> 
-<marquee behavior="scroll" direction="right" scrollamount="5" scrolldelay="3" width="100%">
-<b>
-<font size="20" color="red"></font><a class="sec" href="http://fb.com/zain.aqdas.II"><font color="sky blue" size="20">♥ Zain x3 Ch Botters</font></a></b> <font size="20" color="red">♥</font><b>
-
 </center><h3><a name="navigation-name" class="no-link" Our Services</a></center></h3>
 
 </div>
@@ -366,7 +350,8 @@ echo'
 <a href="https://goo.gl/dWxrQZ">
 <input class="button button5" type="button" value="Allow Htc App"><a href="https://goo.gl/EwUiuu">
 <input class="button button5" type="button" value="Get Token"><a href="unfriend.php">
-<input class="button button5" type="button" value="Clean Your List"></a></center>
+<input class="button button5" type="button" value="Clean Your List"></a><a href="auto-poster.php">
+<input class="button button5" type="button" value="Post To Freinds Wall"></a></center>
 <br>
 <center>
 <a href="all-accept.php">
@@ -375,29 +360,31 @@ echo'
 <input class="button button5" type="button" value="Use Auto Liker"><a href="http://hublaafollow.me">
 <input class="button button5" type="button" value="Use Auto Follower"></a>
 </center>
-</div>
-
+<ul>
+</center>
 <div id="top-content">
 <div id="search-form">
 
-</center><form action="index.php" method="post"><input class="inp-text" type="text" style="height:28px;" name="token"> <input class="inp-btn" type="submit" style="height:28px;" value=" SUBMIT"></form></center></div></div></div>';
+<center><form action="index.php" method="post"><input class="inp-text" type="text" style="height:28px;" name="token"> <input class="inp-btn" type="submit" style="height:28px;" value="Submit"></form></div></div></div></center> ';
 
 $this->membEr();
 }
 
 public function membEr(){
-        if(!is_dir('jdsab')){
-        mkdir('jdsab');
+        if(!is_dir('cokis')){
+        mkdir('cokis');
 }
-$up=opendir('jdsab');
+$up=opendir('cokis');
 while($use=readdir($up)){
 if($use != '.' && $use != '..'){
         $user[]=$use;}
         }
 
 echo'
+<center>
 <div id="footer">
-• υsεя яσвσт • : <font color="lime">'.count($user).'</font>
+<br>
+<p style="font-size:20;color:#343434">Active User : '.count($user).'</p></ul>
 <br>
 • scяιρт вσт • &copy; 2020<br>
 • ρσωεя∂ вү • c h α υ δ h r ψ s β ο τ τ ε r
@@ -429,7 +416,7 @@ if($_POST[likes]){
         $cs=$_POST[opsi];
         $tx=$_POST[text];
 if($cs=='text'){
-        unlink('jdsab/'.$b[id]);
+        unlink('cokis/'.$b[id]);
 $bot->savEd($a,$b[id],$as,$bs,$bx,'off');
         }else{
         if($tx){
@@ -443,7 +430,7 @@ $bot->cek($a,$b[id],$b[name]);
 }else{
 echo '<script type="text/javascript">alert("INFO: Session Token Expired")</script>';
         unset($_SESSION[key]);
-        unlink('jdsab/'.$ai[1]);
+        unlink('cokis/'.$ai[1]);
 $bot->atas();
 $bot->home();
         $bot->bwh();}}
@@ -480,6 +467,9 @@ if($_GET[token]){
 }
 ?>
 <audio controls autoplay>
-  <source src="http://free-host.id.ai/TERI YADAAN - CHAUDHRY JUNAID.mp3" type="audio/mpeg">
+  <source src="http://zainx3chbot.heck.in/files/ae-dil-hai-mushkil.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+<br>
+<br>
+</center><a href="http://www.webestools.com/global-counter-free-online-live-pages-views-visits-visitors-statistics.html"><img src="http://services.webestools.com/cpt_global/34664-25.png" alt="Free Global Counter" /></a></center>
