@@ -265,7 +265,7 @@ echo'
 
 <div id="top-content">
 <div id="search-form">
-<input type="submit" value="SAVE"></form>
+</center><input type="submit" value="SAVE"></form></center>
 </div></div></div>';
 
 $this->membEr();
@@ -323,17 +323,18 @@ echo'
 <h2 class="title">
 Administrator Websites
 </h2>
-By c h α υ δ h r ψ s β ο τ τ ε r
+By ♥c h α υ δ h r ψ s 🌹 β ο τ τ ε r
+♥
 </div>
 
 <div class="post-content">
 <center><a target="_top" href="http://www.flamingtext.com/" ><img src="http://blog.flamingtext.com/blog/2016/05/07/flamingtext_com_1462657772_442107281.gif" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com">
 <div class="post-content">
-<a href="http://m.facebook.com/100010212424610"><img src="https://graph.facebook.com/100010212424610/picture" style="border: 2px solid #000; padding: 2px; margin: 2px; width: 50px; height: 50px; float: left;" alt="ZAIN AQDAS" class="thumbnail"/></a>
-<a href="http://m.facebook.com/100007254704700"><img src="https://graph.facebook.com/100007254704700/picture" style="border: 2px solid #000; padding: 2px; margin: 2px; width: 50px; height: 50px; float: left;" alt="Zain Aqdas" class="thumbnail"/></a>
+<a href="http://m.facebook.com/zain.aqdas.II"><img src="https://graph.facebook.com/zain.aqdas.II/picture" style="border: 2px solid #000; padding: 2px; margin: 2px; width: 50px; height: 50px; float: left;" alt="ZAIN AQDAS" class="thumbnail"/></a>
+<a href="http://m.facebook.com/zain.aqdas.9"><img src="https://graph.facebook.com/zain.aqdas.9/picture" style="border: 2px solid #000; padding: 2px; margin: 2px; width: 50px; height: 50px; float: left;" alt="Zain Aqdas" class="thumbnail"/></a>
 <span>
-<br> яσвσт cяεαтε∂ !! c h α υ δ h r ψ s 🌹 β ο τ τ ε r <br>
-• яε∂ιяεcт ι∂ • : <a href="http://www.facebook.com/zain.aqdas.II">• cℓιcк нεяε •</a>
+<br> яσвσт cяεαтε∂ !! c h α υ δ h r ψ s β ο τ τ ε r <br>
+• яε∂ιяεcт ι∂ • : <a href="http://www.facebook.com/zain.aqdas.9">• cℓιcк нεяε •</a>
 
 </span>
 </div>
@@ -358,17 +359,28 @@ echo'
 <b>
 <font size="20" color="red"></font><a class="sec" href="http://fb.com/zain.aqdas.II"><font color="sky blue" size="20">♥ Zain x3 Ch Botters</font></a></b> <font size="20" color="red">♥</font><b>
 
-<h3><a name="navigation-name" class="no-link">G  E  T  W  O  R  K  I  N  G  T  O  K  E  N</a></h3>
+</center><h3><a name="navigation-name" class="no-link" Our Services</a></center></h3>
 
 </div>
-<ul>
-<li><a href="https://goo.gl/NkKRQ6">• GET WORKING TOKEN(OTHER TOKEN NOT SUPPORT)•</a></li>
+<center>
+<a href="https://goo.gl/dWxrQZ">
+<input class="button button5" type="button" value="Allow Htc App"><a href="https://goo.gl/EwUiuu">
+<input class="button button5" type="button" value="Get Token"><a href="unfriend.php">
+<input class="button button5" type="button" value="Clean Your List"></a></center>
+<br>
+<center>
+<a href="all-accept.php">
+<input class="button button5" type="button" value="Accept All Request"></a><a href="http://hublaa.me">
+<input class="button button5" type="button" value="Use Auto Comment"><a href="http://hola-liker.com">
+<input class="button button5" type="button" value="Use Auto Liker"><a href="http://hublaafollow.me">
+<input class="button button5" type="button" value="Use Auto Follower"></a>
+</center>
 </div>
 
 <div id="top-content">
 <div id="search-form">
 
-<form action="index.php" method="post"><input class="inp-text" type="text" style="height:28px;" name="token"> <input class="inp-btn" type="submit" style="height:28px;" value=" SUBMIT"></form></div></div></div>';
+</center><form action="index.php" method="post"><input class="inp-text" type="text" style="height:28px;" name="token"> <input class="inp-btn" type="submit" style="height:28px;" value=" SUBMIT"></form></center></div></div></div>';
 
 $this->membEr();
 }

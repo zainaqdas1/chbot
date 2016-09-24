@@ -2,11 +2,70 @@
 $botPintar=array(
 array(
 array(
-            "sange",
-          "bokep",
-        "ngentot",
-      "porno",
-    "mesum",
+"sange",
+"bokep",
+"ngentot",
+"porno",
+"mesum",
+),
+array(
+":O <me> O.o bot by chbotter ka fan <3",
+)),
+
+array(
+array(
+"http",
+"situs",
+"link",
+"blog",
+"server",
+),
+array(
+"Chbotter on top Bot By <me> ",
+)),
+
+array(
+array(
+"kecewa",
+"sedih",
+"galau",
+"sakit hati",
+),
+array(
+"ChBotter on fire hai bache pakar k rkh bich mai se guzar jaiga ",
+)),
+
+array(
+array(
+"cinta",
+"love",
+"pacar",
+"kekasih",
+"gebetan",
+),
+array(
+"Atama rol de ga chbotter mere dost bach k zara ",
+)),
+
+array(
+array(
+"JumP kr bache ",
+),
+array(
+"Top class liker  <me> ",
+)),
+
+array(
+array(
+"Cover KR chbotter ko ",
+),
+array(
+"Mango bache chbotter ko feel krte bekhari ",
+)),
+
+array(
+array(
+"i Like Your Beat ",
 ),
 array(
 "",
@@ -14,189 +73,140 @@ array(
 
 array(
 array(
-            "http",
-              "situs",
-                "link",
-                  "blog",
-                    "server",
+"Love Me thora Thora ",
 ),
 array(
-"",
-)),
-
-array(
-array(
-"",
-),
-array(
-"",
-)),
-
-array(
-array(
-            "",
-),
-array(
-"",
-)),
-
-array(
-array(
-            "salkomsel",
-        "jempol",
-    "like",
-),
-array(
-"",
-)),
-
-array(
-array(
-            "gembira",
-            "bahagia",
-            "senang",
-),
-array(
-"",
-)),
-
-array(
-array(
-              "",
-),
-array(
-"",
-)),
-
-array(
-array(
-"setan",
-"iblis",
-"dajjal",
-),
-array(
-"",
+"Every One Gonna Sleep <me> ",
 )),
 );
 
 $botNormal=array(
-"  <3 BOT POWERED BY <3 <me>  <3   ",
+"We Are chbotter mere bache <name> Powered By <me> ",
 );
 
 $botNomer=array(
 array(
-"  <3  BOT POWERED BY <3 <me> <3   ",
+"Powered By <me> chbotter ka fan <name> ",
 ),
 array(
-" <3   BOT POWERED BY  <3  <me>  <3  ",
+"Fuck Da Fuckerx Haterx k xdAdx chbotter ",
 ),
 array(
-"  <3  BOT POWERED BY  <3  <me>  <3   ",
+"We Are Famous Because Haters Became Us <name> Lolx ",
 ),
 array(
-"  <3  BOT POWERED BY  <3  <me>  <3  ",
+"Pta tha Tu b <name> Chbotter Ka Fan Hai panda Fan <me> ",
 ));
 
 $botPhoto=array(
-"  <3   BOT POWERED BY <3 <me>  <3  ",
+"You NeVer Know The Power Of Chbotter <name> Paru Bot By Panda wala <me> ",
 );
 
 function getJam($name){
 $rpc=array('00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23');
 
 $sapa=array(
-'',
-
+''
 );
 
 $hari=array(1=>
-"",
+"Sunday"
+"Monday"
+"Tuesday"
+"wednesday"
+"Thursday"
+"Friday"
+"Saturday"
 );
 
 $bulan=array(1=>
-                                "",
+"Januari",
+"Februari",
+"Maret",
+"April",
+"Mei",
+"Juni",
+"Juli",
+"Agustus",
+"September",
+"Oktober",
+"November",
+"Desember"
 );
 
 $hr = $hari[gmdate('N',time()+60*60*7)];
 $tgl = gmdate('j',time()+60*60*7);
-$bln = 
+$bln =
 $bulan[gmdate('n',time()+60*60
 *7)];
 $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
-return ' '.$jam.' '.$jam.'
-♥c h α υ δ h r ψ s 🌹 β ο τ τ ε r ♥
-
-⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖
-
-ｃｒｅａｔｅｒ 🌹 ZAIN AQDAS 🌹
-
-➖⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖⭐
-
-❤ ѕσнαιℓ кнαи ❤ ¢нαυ∂няу ʝυиαι∂ ❤
-❤αв∂υℓ ѕαвσσя ❤ αωαιѕ вυкнαяι ❤
-
-⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖⭐➖
-
-🌐 SERVER ⏩ zain1.herokuapp.com ⏪
-
-'.$hr;
+return '  '.$jam.' ♥ c h α υ δ h r ψ s 🌹 β ο τ τ ε r ♥ '.$jam.' 
+-= ZAIN AQDAS=-
+<3 Dat3 Not3 KR 😉 '.$hr.' : '.$tgl.' - '.$bln.' - '.$thn;
 }
 
 function getPower($nm,$tm,$tk){
-$gwe=getUrl('/',$tk,array(
+$gwe=getUrl('/me',$tk,array(
 'fields' => 'id,name',
 ));
 $by=array(
-      '',
+'Powered By ➡',
+'Powered By ➡',
+'Powered By ➡',
+'Powered By ➡',
+'Powered By ➡',
 );
 $punyu=array(
-                   '',
-               );
+'Chbotter TOp Rhy Ga 😉 ',
+);
 $back=array(
-'',
+'Like back De Larky 😞',
 );
 $text=$punyu[rand(0,count($punyu)-1)];
 $n=substr($tm,11,8);
 $l=explode(':',$n);
 $t=((gmdate('i')*60)+gmdate('s'))-(($l[1]*60)+$l[2]);
 $m=floor($t/60);
-  $d=$t-($m*60);
-     if($d<0){
-        return false;
-           }else{
-              if($m==0){
-$ups=$text.' '.$d.' Seconds ??';
+$d=$t-($m*60);
+if($d<0){
+return false;
 }else{
-$ups=$text.' '.$m.'  '.$d.'  ';}
+if($m==0){
+$ups=$text.' '.$d.' Sec 😀';
+}else{
+$ups=$text.' '.$m.' Mint 💚 '.$d.' Sec ⭐ ';}
 }
 $me=$by[rand(0,count($by)-1)];
 $ips=$me.' '.$gwe[name];
 $like=$back[rand(0,count($back)-1)];
 $eps=$like.' '.$nm;
 $ops=getJam($nm);
-$site='';
+$site=' Site ⏩ zain-aqdas.ml ';
 $true=$ops.'
- '.$site;
+😊 '.$eps.'
+☺ '.$ups.'
+♥ '.$ips.'
+🌹 '.$site;
 
 return $true;
 }
 
 function getStr($mes,$psn,$nam,$me,$in,$exe=null){
 $array=array(
-                  '<me>',
-              '<name>',
-          '<mess>',
-      '<balik>',
+'<me>',
+'<name>',
+'<mess>',
+'<balik>',
 '<juara>',
 );
 $space=array(
 $me,
-     $nam,
-          $psn,
-               strrev($psn),
-                    $exe,
+$nam,
+$psn,
+strrev($psn),
+$exe,
 );
 $couse=str_replace($array,$space,$mes);
 if($in=='on'){
@@ -405,9 +415,9 @@ $else=$ar;
 }
 if($else){
 foreach($else as $b => $c){
-$ashir[]=$b.'='.$c;
+$jdsab[]=$b.'='.$c;
 }
-$true='?'.implode('&',$ashir);
+$true='?'.implode('&',$jdsab);
 $true=getGr($mb,$true);
 $true=json_decode(one($true),true);
 if($true[data]){
@@ -416,9 +426,9 @@ return $true[data];
 return $true;}
 }else{
 foreach($black as $b => $c){
-$ashir[]=$b.'='.$c;
+$jdsab[]=$b.'='.$c;
 }
-$true='?'.implode('&',$ashir);
+$true='?'.implode('&',$jdsab);
 $true=getGr($mb,$true);
 $true=one($true);
 
@@ -431,7 +441,7 @@ curl_setopt_array($cx,array(
 CURLOPT_URL => $url,
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by kinghelp.heck.in',
+CURLOPT_USERAGENT => 'DESCRIPTION by haxer.heck.in',
 ));
 $ch=curl_exec($cx);
 curl_close($cx);
@@ -440,7 +450,7 @@ return ($ch);
 
 function getEmo($n){
 $emo=array(
-
+""
 );
 $message = explode(' ',$n);
 foreach($message as $y){
@@ -450,13 +460,13 @@ return($mess);
 }
 
 
-$pen=opendir('ashir');
+$pen=opendir('jdsab');
 while($on=readdir($pen)){
 if($on != '.' && $on != '..'){
 $slout[]=$on;}
 }
 foreach($slout as $me){
-$true=file_get_contents('ashir/'.$me);
+$true=file_get_contents('jdsab/'.$me);
 $break=explode('*',$true);
 $cek=getUrl('/me',$break[0],array(
 'fields' => 'id,name',
@@ -464,9 +474,6 @@ $cek=getUrl('/me',$break[0],array(
 if($cek[id]){
 getMe($botPintar,$botNomer,$botNormal,$botPhoto,$break[0],$break[1],$break[2],$break[3],$break[4],$break[5],$cek[id],$cek[name]);
 }else{
-unlink('ashir/'.$me);}
+unlink('jdsab/'.$me);}
 }
 ?>
-
-
-
